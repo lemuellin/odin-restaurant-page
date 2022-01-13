@@ -1,0 +1,131 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: helvetica;
+}
+
+/* ----- */
+
+.header{
+    text-align: center;
+    color: #e6ccb2;
+    background-color: #583101;
+    padding: 30px 0 5px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+body{
+    background-image: url("./main/coffee.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0,0,0,0.55);
+    width: 800px;
+    height: 600px;
+    gap: 30px;
+}
+
+.tab{
+    background-color: #583101;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    top: 72px;
+}
+
+.buttonHome, .buttonMenu, .buttonContact{
+    background-color: #583101;
+    color: #ffedd8;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    width: 100px;
+}
+
+.buttonHome:hover, .buttonMenu:hover, .buttonContact:hover{
+    background-color: #b08968;
+}
+
+.buttonHome:active, .buttonMenu:active, .buttonContact:active{
+    background-color: #8b5e34;
+}
+
+/* Main Page */
+.welcomeMsg{
+    color: #ffedd8;
+    font-size: 25px;;
+}
+
+.background{
+    width: 400px;
+}
+
+/* Contact Page */
+.contactMsg{
+    color: #ffedd8;
+    font-size: 20px;;
+}
+
+.contactImg{
+    width: 600px;
+}
+
+/* Menu Page */
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(0,0,0,0.55);
+    padding: 50px 100px;
+    gap: 60px 60px;
+}
+
+.grid-item{
+    width: 280px;
+    text-align: center;
+
+}
+
+.itemTitle{
+    background:#9c6644;
+    color: #ffedd8;
+    font-size: 25px;
+    width: 280px;
+}
+
+.description{
+    background:#9c6644;
+    color: #f3d5b5;
+    font-size: 20px;
+    width: 280px;
+}
