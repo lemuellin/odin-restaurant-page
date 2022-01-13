@@ -7,6 +7,7 @@ import latteMacchiato from './menu/latteMacchiato.jpg';
 import mocha from './menu/mocha.jpg';
 import takeAway from './menu/takeAway.jpg';
 
+
 function menu (){
     const content = document.querySelector('#content');
 
@@ -197,9 +198,6 @@ function menu (){
 
        description8.textContent = "Made by Vibranium,\r\nspecially designed by NASA";
        gridItem8.appendChild(description8);
-
-
-
 
 }
 
