@@ -87,7 +87,7 @@ body{
     background-color: #b08968;
 }
 
-.buttonHome:active, .buttonMenu:active, .buttonContact:active{
+.buttonHome:focus, .buttonMenu:focus, .buttonContact:focus{
     background-color: #8b5e34;
 }
 
